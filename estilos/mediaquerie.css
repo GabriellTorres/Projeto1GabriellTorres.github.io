@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+@media screen and (max-width:1200px) {
+    header > div{
+        justify-content: center;
+        padding: 20px 0px 0px 0px;
+    }
+    .Titulo_1{
+        font-size: 40px;
+    }
+    .fa-gear{
+        font-size: 40px;
+    }
+    .navegacao{
+        display: flex;
+        justify-content: center;
+    }
+    .Lista_nav{
+        margin-left: 0px;
+        width: 400px;
+        padding: 10px;
+    }
+    .itens_nav{
+        font-size: 10px;
+    }
+
+    .titulo_2{
+        font-size: 25px;
+    }
+    .paragrafo_1{
+        padding: 0px 90px 30px 90px;
+    }
+
+    .Secao_2{
+        flex-wrap: wrap;
+        padding: 0px 500px 50px 500px;
+    }
+
+    figure{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0px 500px 50px 500px;
+    }
+
+    .Secao_3{
+        flex-wrap: wrap;
+    }
+
+    .Lista_Simbolos{
+        padding: 20px 420px 50px 420px;
+    }
+    .fa-gavel{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+
+    }
+    .fa-random{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-key{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-wrench{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-scissors{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-filter{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-lock{
+        font-size: 20px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+
+    .paragrafo_footer{
+        padding: 30px 90px 10px 90px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1600px) {
+    header > div{
+        justify-content: center;
+        padding: 20px 0px 0px 0px;
+    }
+    .navegacao{
+        display: flex;
+        justify-content: center;
+    }
+    .Lista_nav{
+        margin-left: 0px;
+        width: 600px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width:1000px){
+    .Lista_Simbolos{
+        padding: 20px 450px 50px 450px;
+    }
+    .Lista_nav{
+        margin-left: 0px;
+        width: 360px;
+        padding: 10px;
+    }
+    .fa-gavel{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+
+    }
+    .fa-random{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-key{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-wrench{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-scissors{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-filter{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+    .fa-lock{
+        font-size: 15px;
+        color: white;
+        padding: 20px;
+        flex-shrink: 1;
+    }
+}
